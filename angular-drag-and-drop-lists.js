@@ -410,7 +410,7 @@ angular.module('dndLists', [])
             placeholder = child;
           }
         });
-        return placeholder || angular.element("<li class='dndPlaceholder'></li>");
+        return placeholder || angular.element("<div class='dndPlaceholder'></div>");
       }
 
       /**
